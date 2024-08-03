@@ -15,6 +15,7 @@ Currently, two official plugins are available:
   - Automatice File & Collecion Clean UP
   - Button for Copy URL
   - send any type of file
+  - Progressive Web App
 
 <br/>
 <br/>
