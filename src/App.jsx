@@ -55,7 +55,7 @@ function App() {
         <img src={Heading_Logo} alt="Heading_Logo" className="h-full w-full"/>
       </p>
       </div>
-      <div className="flex justify-center items-center h-auto">
+      <div className="flex justify-center items-center h-auto px-6">
         <div className="w-[70%] h-auto bg-[#012e45] flex justify-start items-center flex-col gap-4 max-md:w-[100vw]">
           <h1 className="pt-4 pb-4 font-bold text-[#b7cee0] text-center">
             FlyoFiles is a Simple File Sharing APP
