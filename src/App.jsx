@@ -56,7 +56,7 @@ function App() {
       </p>
       </div>
       <div className="flex justify-center items-center h-auto">
-        <div className="w-[70%] h-[50vh] bg-[#012e45] flex justify-start items-center flex-col gap-4 max-md:w-[100vw]">
+        <div className="w-[70%] h-auto bg-[#012e45] flex justify-start items-center flex-col gap-4 max-md:w-[100vw]">
           <h1 className="pt-4 pb-4 font-bold text-[#b7cee0] text-center">
             FlyoFiles is a Simple File Sharing APP
             <br />
@@ -77,7 +77,7 @@ function App() {
             }}
           />
           {file && (
-            <div className="h-[20%] min-w-[20%] w-auto bg-blue-700 shadow-xl rounded-xl flex justify-evenly items-center gap-6 text-white">
+            <div className="h-[20%] min-w-[20%] w-auto bg-blue-700 shadow-xl rounded-xl flex justify-evenly items-center gap-6 text-white ">
               <div className="pl-4">
                 <FaFileArrowUp size={30} />
               </div>
@@ -89,17 +89,17 @@ function App() {
           )}
 
           {isLoad && (
-            <div className="mt-4 flex justify-center items-center flex-col">
+            <div className="mt-4 flex justify-center items-center flex-col px-4">
               {console.log("Spinner working")}
               <BarLoader color="white" />
               <p className="text-white mt-4">Please wait a While ...</p>
             </div>
           )}
           {result && (
-            <div className="mt-4 flex flex-row gap-4 max-md:flex-col max-sm:text-sm max-sm:items-center">
-              <span className="text-[#cce2f4] font-semibold">Your Link : </span>
+            <div className="mt-4 flex flex-row gap-4 max-md:flex-col max-sm:text-sm max-sm:items-center px-4">
+              <span className="text-[#cce2f4] font-semibold">Your Link: </span>
               <a href={result} target="_blank">
-                <span className="text-[#cce2f4] font-bold max-sm:break-words">
+                <span className="text-[#cce2f4] font-bold  max-sm:text-sm break-all">
                   {result}
                 </span>
               </a>
